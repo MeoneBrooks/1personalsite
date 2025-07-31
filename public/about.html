@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body> 
+  <nav class="navbar sticky-top navbar-expand-md my-navbar">
+    <div class="container-fluid">
+      <a href="../index.html" class="navbar-brand"><img src="../assets/mylogo.svg" alt="logo" height="50"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+  aria-expanded="false" aria-label="Toggle navigation"
+  style="border-color: white;">
+  <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+</button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+          <a class="nav-link active" href="../public/about.html">About</a>
+          <a class="nav-link" href="../public/portfolio.html">Portfolio</a>
+          <a class="nav-link" href="../public/cv.html">CV</a>        
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container about mb-5 pt-3 pl-3">
+    <h1>About me</h1>
+    <h2>Background</h2>
+      <p>I'm Meoné Brooks, an honours student in Archaeology at UNISA with a strong interest in the past and how we interact with it in the present. My academic focus has been shaped by research into historical missionary sites, particularly through the study of faunal remains from the Platberg Wesleyan Mission Station in the Free State.</p>
+      <p>Alongside my archaeological work, I’ve developed a growing interest in technology and digital tools. This curiosity led me to full-stack web development, where I’m learning to build websites and applications that are both functional and thoughtfully designed. My academic and technical paths may seem worlds apart, but I see them as deeply connected. Both are ways of exploring, understanding, and communicating complex information.</p>
+    <h2>Why I do what I do</h2>
+      <p>For a long time, I found it challenging to connect the world of the past through archaeology with the fast-moving present shaped by technology. The gap between these two spheres felt wide and disconnected, and I didn’t see many clear paths that brought them together. So, I decided to build that bridge for myself.</p>
+      <p>My work now lives at the intersection of research and technology. In one world, I analyse faunal remains to understand historical life-ways and in another, I write code to develop responsive, accessible websites. Whether I’m analysing faunal remains from a historical site or writing code for a new web project, my focus is the same: asking questions, finding patterns, and creating something that communicates meaning clearly and effectively.</p>
+  </div>
+
+  <div class="container-p-i pb-5">
+   <div class="row">
+    <div class="col-lg-6 col-sm-12 mb-4 interests">
+      <div>
+        <h2>My interests</h2>
+        <ul>
+          <li>Archaeology</li>
+          <li>Coding</li>
+          <li>Hiking</li>
+          <li>Reading</li>
+          <li>Puzzles</li>
+          <li>Learning</li>
+        </ul>
+       </div>
+    </div>
+    <div class="col-lg-6 col-sm-12 mb-4">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/Graduation.jpg" class="d-block w-100" alt="My graduation">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/Cartography.jpg" class="d-block w-100" alt="My professor and I doing map work">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/Skull.jpg" class="d-block w-100" alt="A camera next to an animal skull">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/Goggles.jpg" class="d-block w-100" alt="A silly picture of me wearing goggles">
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0">© Meoné Brooks 2025</p>
+    <a class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+       aria-label="logo">
+      <img src="../assets/mylogo.svg" height="40" alt="logo" />
+    </a>
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item">
+        <a href="../index.html" class="nav-link footer-link px-2">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="../public/about.html" class="nav-link footer-link px-2">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="../public/portfolio.html" class="nav-link footer-link px-2">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a href="../public/cv.html" class="nav-link footer-link px-2">CV</a>
+      </li>
+    </ul>
+  </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>   
+</body>
+</html>
