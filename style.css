@@ -72,10 +72,6 @@ p, li, a, .text{
   align-items: center;
 }
 
-main {
-  padding: 2rem;
-}
-
 .cv {
   max-width: 1200px;
   margin: 0 auto;
@@ -113,16 +109,14 @@ main {
   padding-bottom: 0.25rem;
 }
 
-.cv-contact-item,
-.cv-skills-entry {
+.cv-contact-item, .cv-skills-entry {
   margin: 0.5rem 0;
 }
 
 .cv-contact-item > a{
     color: #3D4127;
 }
-.cv-contact-item i,
-.cv-skills-entry--rating i {
+.cv-contact-item i, .cv-skills-entry--rating i {
   margin-right: 0.5rem;
 }
 
@@ -130,10 +124,29 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+.cv-skills-entry--rating {
+  display: flex;
+  gap: 0.3rem;
 }
 
 .cv-skills-entry--rating-circle__active {
   color: #636B2F;
+}
+
+@media (max-width: 600px) {
+  .cv-skills-entry {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 0.5rem;
+  }
+  .cv-skills-entry--name{
+    padding-top: 1rem;
+    margin-bottom: 0;
+  }
 }
 
 .cv-sections h2 {
